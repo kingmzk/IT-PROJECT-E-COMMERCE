@@ -1,0 +1,98 @@
+create table tblUsers
+(
+Uid int identity(1,1) primary key not null,
+Username nvarchar(100)Null,
+Password nvarchar(100)Null,
+Email nvarchar(100)Null,
+Name nvarchar(100)Null,
+)
+
+
+
+
+create table tblCont
+(
+Uid int identity(1,1) primary key not null,
+name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Mess nvarchar(100)Null,
+)
+
+
+
+create table tblCart
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
+
+
+create table tblCart1
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
+
+
+create table tblEmploy
+(
+Uid int identity(1,1) primary key not null,
+Username nvarchar(100)Null,
+Password nvarchar(100)Null,
+Email nvarchar(100)Null,
+Name nvarchar(100)Null,
+)
+
+
+create table tblCart2
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
+create table tblCart3
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
+create table tblCart4
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
+
+create table tblCart5
+(
+Uid int identity(1,1) primary key not null,
+Name nvarchar(100)Null,
+Email nvarchar(100)Null,
+PhoneNo nvarchar(100)Null,
+Company nvarchar(100)Null,
+Comment nvarchar(100)Null,
+)
+
